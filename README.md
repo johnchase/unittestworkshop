@@ -72,53 +72,49 @@ Organize to isolote test and application code
 
 ## 3. Running and Evaluating Tests (Hands On)
 
-```
-
-git checkout 01-running-tests
-
-```
-
 ### tests
 
-```
-
+```bash
 make test
-
 ```
 
 ### Coverage
 
-```
-
+```bash
 make coverage
-
 ```
 
 ### Inspect coverage
 
-```
-
+```bash
 coverage html
 open htmlcov/index.html
-
 ```
 
 ## 4. Basic Unit Testing (Hands On)
 
-Objective: Create basic unit tests
+#### 1. Create basic unit tests
+
+```bash
+git checkout 01-basic-unit-tests
+```
 
 1. Write a new function
 2. Define tests for that function
+
+#### 2. Fixtures for reusable data
+
+```bash
+git checkout 02-fixtures
+```
+
+#### 3. Mocking for external dependencies and complex objects
+
+```bash
+git checkout 03-mocking
+```
 
 ## 5. Test Driven Development - (Demo/Discussion)
 
 1. What does it look like?
 2. Is TDD the "best" way?
-
-## 6. Fixtures (Hands On)
-
-## 7. Mocking (Hands On)
-
-```
-
-```
