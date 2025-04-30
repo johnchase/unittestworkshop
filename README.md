@@ -56,18 +56,18 @@ Organize to isolote test and application code
 
 #### 📁 `src/tests/`
 
-- **test_calculator_01.py**  
-  Unit tests for the `calculator.py` module. The `01` may imply this is part of a multi-part test suite.
+- **test_basics.py**  
+  Unit tests for the `basics.py` module.
 
 #### `src/utw/`
 
-- \***\*init**.py\*\*  
+- **\_\_init\_\_.py**
   Marks this directory as a Python package. May also expose selected functionality at the package level.
 
-- **calculator.py**  
+- **basics.py**  
   Contains core logic or utility functions that the project provides — this is the main code being tested.
 
-- **py.typed**  
+- **py.typed**
   A [PEP 561](https://peps.python.org/pep-0561/) marker file indicating this package uses type hints and supports type checking.
 
 ## 3. Running and Evaluating Tests (Hands On)
