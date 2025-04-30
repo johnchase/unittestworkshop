@@ -96,7 +96,7 @@ open htmlcov/index.html
 #### 1. Create basic unit tests
 
 ```bash
-git checkout 01-basic-unit-tests
+git checkout 01-basics
 ```
 
 1. Write a new function
