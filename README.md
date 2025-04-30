@@ -2,11 +2,11 @@
 
 If at any point during the coding exercises you want to jump ahead, or start fresh,
 you can checkout the "final" version of the exercise
-for example if you are working on the 01-running-tests branch and want to start fresh,
+for example if you are working on the 01-basics branch and want to start fresh,
 you can run:
 
 ```bash
-git checkout 01-running-tests-final
+git checkout 01-basics
 ```
 
 ## 1. Setup (Hands On)

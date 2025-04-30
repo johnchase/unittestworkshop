@@ -1,4 +1,4 @@
-from utw.calculator import add_numbers
+from utw.basics import add_numbers
 
 
 def test_add_numbers():
