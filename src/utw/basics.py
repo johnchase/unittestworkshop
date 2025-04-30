@@ -1,8 +1,11 @@
-def add_numbers(a: int, b: int) -> int:
+def add_numbers(a, b):
     """Add two numbers together."""
-    if a is None or b is None:
-        raise ValueError("All arguments a, and b must be provided")
     return a + b
+
+
+def divide(a: float, b: float) -> float:
+    """Divide two numbers."""
+    return a / b
 
 
 def parse_age(age_str: str) -> int:
