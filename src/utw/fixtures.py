@@ -10,6 +10,7 @@ def filter_counts(df: pd.DataFrame, threshold: int = 1000) -> pd.DataFrame:
 
 def uppercase_names(df: pd.DataFrame) -> pd.DataFrame:
     """Return a new DataFrame with uppercase names."""
+    df_copy = df.copy()
     df_copy["name"] = df["name"].str.upper()
     return df_copy
 
