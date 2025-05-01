@@ -6,7 +6,13 @@ readme = "README.md"
 authors = [{ name = "John Chase", email = "johnhchase@protonmail.com" }]
 requires-python = ">=3.12"
 
-dependencies = ["pytest", "pytest-cov", "pandas", "coverage>=7.8.0"]
+dependencies = [
+    "pytest",
+ "pytest-cov",
+ "pandas",
+ "coverage>=7.8.0",
+ "requests>=2.32.3",
+]
 
 [build-system]
 requires = ["hatchling"]

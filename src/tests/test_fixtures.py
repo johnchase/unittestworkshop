@@ -48,3 +48,7 @@ def test_count_lines(temp_text_file):
 def test_upper_case_names(df_test):
     uppercase_df = uppercase_names(df_test)
     assert list(uppercase_df["name"]) == ["S1", "S2", "S3", "S4", "S5"]
+
+
+# TODO: Add parameterized fixtures
+# Add composeable parameters
