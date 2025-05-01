@@ -1,4 +1,4 @@
 # src/utw/__init__.py
-from . import basics
+from . import basics, fixtures
 
-__all__ = ["basics"]
+__all__ = ["basics", "fixtures"]
