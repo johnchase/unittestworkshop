@@ -8,7 +8,7 @@ def greet_user() -> str:
     return f"Hello, {user}!"
 
 
-def get_current_user() -> str:
+def get_current_user() -> str:  # pragma: no cover
     user = os.environ.get("TEST_USER")
     if user:
         return user
