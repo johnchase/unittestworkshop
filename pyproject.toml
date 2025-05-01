@@ -6,12 +6,7 @@ readme = "README.md"
 authors = [{ name = "John Chase", email = "johnhchase@protonmail.com" }]
 requires-python = ">=3.12"
 
-dependencies = [
-    "pytest",
-    "pytest-cov",
-    "pandas",
-    "coverage>=7.8.0",
-]
+dependencies = ["pytest", "pytest-cov", "pandas", "coverage>=7.8.0"]
 
 [build-system]
 requires = ["hatchling"]
@@ -19,3 +14,19 @@ build-backend = "hatchling.build"
 
 [tool.coverage.report]
 fail_under = 100
+
+[dependency-groups]
+dev = ["ruff>=0.11.7"]
+
+[tool.ruff]
+lint.select = ["E", "F", "I"] # 'I' is for isort rules
+
+[tool.ruff.lint.isort]
+# Import order styling (similar to isort's black profile)
+section-order = [
+  "future",
+  "standard-library",
+  "third-party",
+  "first-party",
+  "local-folder",
+]
